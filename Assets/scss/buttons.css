@@ -1,0 +1,85 @@
+@import "variables.scss";
+.btn{
+}
+.btn:focus {
+    box-shadow: none;
+}
+.btn-round{
+    border-radius: 10px;
+}
+.btn-det{
+    border: none;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    padding: 10px 13px;
+    outline: none;
+    box-shadow: none;
+    background-color:#2B307E;
+    color: white!important;
+    font-size: 10px!important;
+}
+.btn-det:hover,.btn-det-gr:hover{
+    background-color: black!important;
+}
+.btn-det-gr{
+    border: none;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    padding: 10px 13px;
+    outline: none;
+    box-shadow: none;
+    background-color:red;
+    color: white!important;
+    font-size: 10px!important;
+}
+.btn-sgnup{
+    border: none;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    padding: 5px 13px;
+    outline: none;
+    box-shadow: none;
+    background-color:red;
+    color: white!important;
+}
+.btn-sgnup:hover{
+    background-color: black!important;
+}
+.btn-lgn{
+    border: none;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    padding: 5px 13px;
+    outline: none;
+    box-shadow: none;
+    background-color:#2B307E;
+    color: white!important;
+}
+.btn-lgn:hover{
+    background-color: black!important;
+}
+.btn-danger{
+    padding: 6px 12px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 13px;
+    outline: none;
+    background: #2B307E!important;
+    border: none!important;
+    color: white!important;
+    padding: 6px 12px!important;
+}
+.bg-gr:hover,
+.btn-primary:hover,
+.btn-primary:focus
+{
+    background-color: black!important;
+    color: white!important;
+    border: none!important;
+    transform: scale(1.1);
+    outline: none;
+}
+
+
